@@ -25,18 +25,12 @@ time, mark, audio, video {
 
 body {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,117,1) 47%, rgba(0,212,255,1) 100%);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-header {
+/*header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-h1 {
-    font-size: 5vw;
-    color: #FFF;
-    text-decoration-line: underline;
-    text-decoration-style: dotted;
-}
+}*/
