@@ -24,13 +24,13 @@ time, mark, audio, video {
 /* actual CSS goes below */
 
 body {
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,117,1) 47%, rgba(0,212,255,1) 100%);
     font-family: Helvetica, Arial, sans-serif;
+    background-color: teal;
 }
-
-/*header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}*/
+header {
+    border: solid black;
+}
+.logo {
+    display: block;
+    margin:auto;
+}
