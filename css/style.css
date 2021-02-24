@@ -1,26 +1,49 @@
 body {
     font-family: 'Montserrat', sans-serif;
-	background-color: #114232;
+
 }
 #logo {
 	margin-top: 10vh;
-	height: 35vh;
-	border: 3px solid white;
+	height: 30vh;
+	border: 3px solid #A3BCB6
 }
 #intro {
-	margin-top: 5vh;
-	text-align: center;
-	color:white;
-	border-bottom: 3px solid white;
-	border-top: 3px solid white;
-	border-radius: 5%;
+	color:#3C403D;
+	height: 70vh;
+	background-color: #DADED4;
+	border-bottom: 2px solid #A3BCB6;
 }
 #cv {
-	text-align: center;
-	background-color: white;
-	margin-top: 5vh;
-}
-p {
-	font-size: 5vh;
+	font-weight: 900;
 
 }
+#greeting {
+	font-size: 5vh;
+}
+#punchline {
+	font-size: 1.5vh;
+	font-style: italic;
+	font-weight: 900;
+}
+
+.italic {
+	font-style: italic;
+}
+.center-text {
+	text-align: center;
+}
+.right-text {
+	text-align: right;
+}
+
+/*
+Olive: #A3BCB6
+
+Green Leaf: #39603D
+
+Brown Grey: #3C403D
+
+Tanly: #DADED4
+
+White: #FFFFFF
+*/
