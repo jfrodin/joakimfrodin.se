@@ -2,6 +2,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 
 }
+i {
+	font-size: 3vh;
+}
+header {
+	background-color: #A3BCB6;
+	height: 3vh;
+}
+footer {
+	background-color: #A3BCB6;
+	height: 5vh;
+}
 #logo {
 	margin-top: 10vh;
 	height: 30vh;
@@ -9,9 +20,9 @@ body {
 }
 #intro {
 	color:#3C403D;
-	height: 70vh;
+	height: 100vh;
 	background-color: #DADED4;
-	border-bottom: 2px solid #A3BCB6;
+	/* border-bottom: 2px solid #3C403D; */
 }
 #cv {
 	font-weight: 900;
@@ -24,6 +35,12 @@ body {
 	font-size: 1.5vh;
 	font-style: italic;
 	font-weight: 900;
+}
+a {
+	color: #3C403D;
+}
+a:hover {
+	color: #39603D;
 }
 
 .italic {
