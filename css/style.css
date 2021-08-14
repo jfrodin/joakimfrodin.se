@@ -5,37 +5,36 @@ body {
 i {
 	font-size: 3vh;
 }
-header {
-	background-color: #A3BCB6;
-	height: 3vh;
-}
+
 footer {
+	padding-top: 2vh;
 	background-color: #A3BCB6;
-	height: 5vh;
+	height: 10vh;
 }
 #logo {
-	margin-top: 10vh;
-	height: 30vh;
+	margin-top: 30vh;
+	width: 10vw;
 	border: 3px solid #A3BCB6
 }
 #intro {
 	color:#3C403D;
 	height: 100vh;
 	background-color: #DADED4;
-	/* border-bottom: 2px solid #3C403D; */
 }
-#cv {
-	font-weight: 900;
+#presentation {
+	background-color: #FFFFFF;
+	height: auto;
+	padding-top: 2vh;
+}
 
+h3 {
+	font-weight: 900;
 }
+
 #greeting {
 	font-size: 5vh;
 }
-#punchline {
-	font-size: 1.5vh;
-	font-style: italic;
-	font-weight: 900;
-}
+
 a {
 	color: #3C403D;
 }
@@ -52,9 +51,12 @@ a:hover {
 .right-text {
 	text-align: right;
 }
+.desc {
+	font-weight: 900;
+}
 
-/*
-Olive: #A3BCB6
+
+/* Olive: #A3BCB6
 
 Green Leaf: #39603D
 
