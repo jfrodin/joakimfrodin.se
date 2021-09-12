@@ -9,18 +9,28 @@
 #bootstrap-override a:hover {
 	color: #424242
 }
+.navbar-toggler-icon .navbar-toggler{
+	background-color: black !important;
+	border-color: black;
+}
+#navbar-div {
+	border-bottom: 1px black solid;	
+}
 body {
     background-image: url(/images/background.jpg) !important;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
-.navbar-text {
+.navbar-text a {
+	font-size:5vh;
+	color: white !important;
+}
+.navbar-text a:hover {
+	color: #e4e3e3 !important;
+}
+.navbar-text h3 {
+	color: white;
 	
-	border: 3px solid black;
-	padding-left: 1%;
-	padding-right: 1%;
-	border-radius: 10px;
 }
