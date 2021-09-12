@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/fajihwrh/public_html/
-    - /bin/cp -R joakimfrodin.se $DEPLOYPATH
+    - cp -R joakimfrodin.se $DEPLOYPATH
