@@ -1,47 +1,26 @@
 * {
 	font-family: 'Roboto', sans-serif;
+	font-weight:900 !important;
 }
 
+#bootstrap-override a{
+	color: black;
+}
+#bootstrap-override a:hover {
+	color: #424242
+}
 body {
-    background-image: url(/images/joakim_smaller_threshold.jpg) !important;
+    background-image: url(/images/background.jpg) !important;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
-#bootstrap-override {
-	background-color: black !important;
-}
-
-#bootstrap-override a {
-	color: white;
+.navbar-text {
 	
-}
-
-#bootstrap-override a:hover {
-	color: orange;
-}
-
-.navbar-text a {
-	margin: 1em;
-
-}
-.navbar-text i:hover {
-	color: orange;
-}
-
-.dropdown-menu a {
-	color:black !important;
-}
-.dropdown-menu a:hover {
-	color:orange !important;
-}
-
-#left-container {
-	background-color: black;
-	height: 70vh;
-	margin: 2%;
-	opacity: 70%;
-	
+	border: 3px solid black;
+	padding-left: 1%;
+	padding-right: 1%;
+	border-radius: 10px;
 }
