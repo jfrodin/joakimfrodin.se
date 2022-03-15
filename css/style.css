@@ -1,6 +1,5 @@
 * {
-	font-family: monospace;
-	font-weight:100 !important;
+	font-family: 'Share Tech Mono', monospace;
 }
 
 #bootstrap-override a{
@@ -10,11 +9,16 @@
 	color: #99ff99
 }
 .navbar-toggler-icon .navbar-toggler{
-	background-color: #cccccc !important;
-	border-color: #cccccc;
+	background-color: #009900 !important;
+
 }
-#navbar-div {
-	border-bottom: 1px #cccccc solid;	
+.dropdown-menu {
+	background-color: #0f0f23;
+	border: 1px solid #009900;
+}
+.dropdown-menu > li > a:hover {
+    background-image: none;
+    background-color: #252553;
 }
 body {
     background-color: #0f0f23
@@ -25,7 +29,4 @@ body {
 }
 .navbar-text a:hover {
 	color: #99ff99 !important;
-}
-.navbar-text {
-	color: white;	
 }
