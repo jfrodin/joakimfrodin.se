@@ -1,35 +1,31 @@
 * {
-	font-family: 'Roboto', sans-serif;
-	font-weight:900 !important;
+	font-family: monospace;
+	font-weight:100 !important;
 }
 
 #bootstrap-override a{
-	color: black;
+	color: #009900
 }
 #bootstrap-override a:hover {
-	color: #424242
+	color: #99ff99
 }
 .navbar-toggler-icon .navbar-toggler{
-	background-color: black !important;
-	border-color: black;
+	background-color: #cccccc !important;
+	border-color: #cccccc;
 }
 #navbar-div {
-	border-bottom: 1px black solid;	
+	border-bottom: 1px #cccccc solid;	
 }
 body {
-    background-image: url(/images/background.jpg) !important;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #0f0f23
 }
 .navbar-text a {
-	font-size:5vh;
-	color: white !important;
+	font-size:2vh;
+	color: #009900 !important;
 }
 .navbar-text a:hover {
-	color: #e4e3e3 !important;
+	color: #99ff99 !important;
 }
-.navbar-text h3 {
+.navbar-text {
 	color: white;	
 }
